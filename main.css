@@ -28,7 +28,6 @@ p{
 }
 
 
-
 a:link, a:visited {
   background-color: rgba(255, 0, 0, 0.3);
   color: white;
@@ -38,8 +37,13 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+a:hover{
   background-color: rgba(260, 0, 0, 0.7);
+}
+
+a.active{
+  color: #e60000;
+
 }
 
 .centerlink{

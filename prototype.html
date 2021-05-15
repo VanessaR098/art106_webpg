@@ -14,7 +14,8 @@
   <a href="a2.html"> Brushbot & LEDs </a>
   <a href="box.html">Micro Box</a>
   <a href="serial.html">Serial UI</a>
-  <a href="prototype.html">Prototype</a>
+  <a class="active" href="prototype.html">Prototype</a>
+  <a href="final.html"> Final </a>
   <a href="r1.html"> Reading #1 </a>
   <a href="r2.html"> Reading #2 </a>
   <a href="quiz.html">Quiz</a>
@@ -25,3 +26,40 @@
   <img src="Images/serialconcept(2).jpg" alt="Serial Concept Idea" style="width:49%">
   <img src="Images/serialconcept.jpg" alt="Serial Concept Idea (2)" style="width:49%">
   <img src="Images/serialconcept(3).jpg" alt="Serial Concept Idea (3)" style="width:50%; padding-left:300px">
+
+  <h2>Additional Parts Used</h2>
+  <img src="Images/chassis.jpg" alt="Chassis Bot" style="width:40%; padding-left:150px">
+  <img src="Images/stepperMotorDriver.jpg" alt="Stepper Motor Driver" style="width:40%">
+  <img src="Images/distanceSensor.jpg" alt="Distance Sensor" style="width:40%; padding-left:150px">
+  <img src="Images/graphicDisplay.jpg" alt="Chassis Bot" style="width:40%">
+
+  <h2>Prototype</h2>
+  <img src="Images/prototype.jpg" alt="Prototype" style="width:40%">
+  <img src="Images/prototype(2).jpg" alt="Prototype(2)" style="width:40%">
+  <img src="Images/prototype(3).jpg" alt="Prototype(3)" style="width:40%">  <img src="Images/prototype(4).jpg" alt="Prototype(4)" style="width:40%">
+
+  <h2>Finished Assembly</h2>
+  <img src="Images/perfboard.jpg" alt="Finished Hardware" style="width:40%">
+  <img src="Images/perfboard(2).jpg" alt="Finished Hardware(2)" style="width:40%">
+  <img src="Images/perfboard(3).jpg" alt="Finished Hardware(3)" style="width:40%">
+
+  <h2>Prototype Videos/Demos</h2>
+
+  <h2>Artist Statement</h2>
+  <p>My goal for this project was very in line with what I had proposed in my initial sketches. As shown in my sketches, I wanted to create a mobile mouse robot that would respond in real time to objects that got too close to it and by gestural movements that determine the direction it would move in (essentially like being remote controlled). I was able to achieve this by purchasing a chassis car, stepper motor driver, 3 distance sensors (one in the front, and one on each side), a graphic display, and an IMU, along with our already provided metro mini, neopixels and if needed an external 5 volt power supply. The chassis car would act as the mouse's body and legs, the stepper motor driver controls the motors of the chassis, the distance sensors would detect how close an object is to it (or vice versa) in order for the chassis to respond, the grahic display would animate the mouse's emotions, and the IMU would detect gesture that the chassis would respond to in real time.</p>
+
+  <p>The success of completing my prototype's hardware and basic software outputs was very satisfying. I was able to get all parts to function unanimously on one code, and was able to test if some hardware parts could effect another hardware part. For example, once my distance sensors detect an object is to close to it, it causes the chasis to react by moving forward. I was also able to get the data from my IMU to display on my graphic display which shows to me that they do in fact interact with one another. This is just a prototype meaning it's still in it's beginning stages. However, I'm very pleased with my progress of showcasing that my chassis is user performativea and interactive.</p>
+
+  <p>There could have been several improvements, such as making my perfboard more neat. I could have been more strategic with my wiring, since at the time I forgot we could have wiring go underground (under the perfboard) rather than have the wire reach the other side and tangle other wires. I believe this was my biggest failure. However, I'd say I was much more successful than I imagined considering I was able to get every hardware piece to work and interact with one another how I had wanted to. </p>
+
+  <p>There are certainly more improvements I plan to make in my final, such as tweaking outputs/actions of the chassis to respond more how I intended as opposed to the basic code that meerely demonstrates that it's opperable. Sone improvements I do have in mind are:  </p>
+
+  <ul>
+    <li>import an image on the graphic display to act as the bot's emotion --> graphic display will be triggered whenever the distance sensors detect something is too close to it</li>
+    <dd>- images will mostly likely just be emotions --> (1) scared emotion when something is too close; (2) happy emotion when it's alone and not too close to anything</dd>
+      <dd>- neopixels will also blink when distance sensors detect something is too close </dd>
+    <li>IMU will act as a remote to control the chassis in real time --> if I move the IMU on the x-axis (at a certain interval since the IMU is very sensitive) the bot will move forward, if I tilt or move (I'm unsure which will would be better at the moment) the IMU to the right, the bot will turn right, and if I tilt/move the IMU left, the bot will turn left. </li>
+    <li>have the graphic display display a right, left or forward arrow when the IMU is triggering a right, left or forward response to the chassis </li>
+    <li>[aesthetics of my mouse bot to look like a mouse will be my last step depending on whether or not I will have enough time to do so (this is not the biggest priority)]</li>
+
+    <p>(Refer to "Final" Page to see finished results :) )</p>
